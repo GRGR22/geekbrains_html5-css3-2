@@ -1,0 +1,63 @@
+/*	font-family: 'Montserrat', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;*/
+	@font-face {
+	    font-family: 'montserratlight';
+	    src: url('../FONTS/montserrat-300.eot');
+	    src: url('../FONTS/montserrat-300.eot?#iefix') format('embedded-opentype'),
+	         url('../FONTS/montserrat-300.woff2') format('woff2'),
+	         url('../FONTS/montserrat-300.woff') format('woff'),
+	         url('../FONTS/montserrat-300.ttf') format('truetype');
+	    font-weight: 300;
+	    font-style: normal;
+	}
+	@font-face {
+	    font-family: 'montserratregular';
+	    src: url('../FONTS/montserrat-400.eot');
+	    src: url('../FONTS/montserrat-400.eot?#iefix') format('embedded-opentype'),
+	         url('../FONTS/montserrat-400.woff2') format('woff2'),
+	         url('../FONTS/montserrat-400.woff') format('woff'),
+	         url('../FONTS/montserrat-400.ttf') format('truetype');
+	    font-weight: 400;
+	    font-style: normal;
+	}
+	@font-face {
+	    font-family: 'ralewayregular';
+	    src: url('../FONTS/raleway-400.eot');
+	    src: url('../FONTS/raleway-400.eot?#iefix') format('embedded-opentype'),
+	         url('../FONTS/raleway-400.woff2') format('woff2'),
+	         url('../FONTS/raleway-400.woff') format('woff'),
+	         url('../FONTS/raleway-400.ttf') format('truetype');
+	    font-weight: 400;
+	    font-style: normal;
+	}
+	@font-face {
+	    font-family: 'ralewaymedium';
+	    src: url('../FONTS/raleway-500.eot');
+	    src: url('../FONTS/raleway-500.eot?#iefix') format('embedded-opentype'),
+	         url('../FONTS/raleway-500.woff2') format('woff2'),
+	         url('../FONTS/raleway-500.woff') format('woff'),
+	         url('../FONTS/raleway-500.ttf') format('truetype');
+	    font-weight: 500;
+	    font-style: normal;
+	}
+	@font-face {
+	    font-family: 'ralewaysemibold';
+	    src: url('../FONTS/raleway-600.eot');
+	    src: url('../FONTS/raleway-600.eot?#iefix') format('embedded-opentype'),
+	         url('../FONTS/raleway-600.woff2') format('woff2'),
+	         url('../FONTS/raleway-600.woff') format('woff'),
+	         url('../FONTS/raleway-600.ttf') format('truetype');
+	    font-weight: 600;
+	    font-style: normal;
+	}
+	@font-face {
+	    font-family: 'robotoregular';
+	    src: url('../FONTS/roboto-400.eot');
+	    src: url('../FONTS/roboto-400.eot?#iefix') format('embedded-opentype'),
+	         url('../FONTS/roboto-400.woff2') format('woff2'),
+	         url('../FONTS/roboto-400.woff') format('woff'),
+	         url('../FONTS/roboto-400.ttf') format('truetype');
+	    font-weight: 400;
+	    font-style: normal;
+	}
