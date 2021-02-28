@@ -61,3 +61,90 @@
 	    font-weight: 400;
 	    font-style: normal;
 	}
+	.ff_montL {
+		font-family: montserratlight, sans-serif;
+	}
+	.ff_montR {
+		font-family: montserratregular, sans-serif;
+	}
+	.ff_raleR {
+		font-family: ralewayregular, sans-serif;
+	}
+	.ff_raleM {
+		font-family: ralewaymedium, sans-serif;
+	}
+	.ff_raleSB {
+		font-family: ralewaysemibold, sans-serif;
+	}
+	.ff_roboR {
+		font-family: robotoregular, sans-serif;
+	}
+	.fc_FF{
+		color: #FFFFFF;
+	}
+	.fc_55{
+		color: #555555;
+	}
+	.fc_00{
+		color: #000000;
+	}
+	.fc_C7{
+		color: #C7B299;
+	}
+	.fc_8C{
+		color: #8C8C8C;
+	}
+	.fc_61{
+		color: #615855;
+	}
+	.fc_D1{
+		color: #D1D1D1;
+	}
+	.fc_36{
+		color: #363636;
+	}
+	.fc_36{
+		color: #BAA78F;
+	}
+	.fc_00B{
+		color: #00BFF3;
+	}
+	.fs_14 {
+		font-size: 14px;
+	}
+	.fs_16 {
+		font-size: 16px;
+	}
+	.fs_18 {
+		font-size: 18px;
+	}
+	.fs_20 {
+		font-size: 20px;
+	}
+	.fs_22 {
+		font-size: 22px;
+	}
+	.fs_24 {
+		font-size: 24px;
+	}
+	.fs_26 {
+		font-size: 26px;
+	}
+	.fs_28 {
+		font-size: 28px;
+	}
+	.fs_30 {
+		font-size: 30px;
+	}
+	.fs_34 {
+		font-size: 34px;
+	}
+	.fs_36 {
+		font-size: 36px;
+	}
+	.fs_52 {
+		font-size: 52px;
+	}
+	.fs_54 {
+		font-size: 54px;
+	}
