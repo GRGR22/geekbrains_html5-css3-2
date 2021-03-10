@@ -1,4 +1,6 @@
-
+a {
+	text-decoration: none;
+}
 .ulra-wide-wrapp{
 	max-width: 1600px;
 }
@@ -51,7 +53,6 @@ header {
 	width: 100%;
 }
 .header-nav__nav-items__link {
-	text-decoration: none;
 	color: #FFFFFF;
 	margin-right: 24px;
 }
@@ -290,11 +291,9 @@ input[type=radio] + label:checked{
 	border: 1px solid #FFFFFF;
 	margin-top: 15px;
 }
-.recent {
-	padding: 100px 0 115px;
-}
 .recent__text {
 	width: 60%;
+	padding-top: 100px;
 }
 .recent__text>p {
 	padding-top: 20px;
@@ -306,6 +305,7 @@ input[type=radio] + label:checked{
 .recent__cards__card {
 	width: 370px;
 	position: relative;
+	border: 1px solid #B3B3B3;
 }
 .recent__cards__card__calendar-D {
 	position: absolute;
@@ -321,13 +321,8 @@ input[type=radio] + label:checked{
 .recent__card__card_dscr {
 	padding:30px 25px 22px ;
 }
-.recent__card__card_dscr>a {
-	text-decoration: none;
-	padding-right: 10px;
-}
 .recent__card__card_dscr>a::after {
 	content: url(../IMG/icon/cards_small_arrow.svg);
-	right: 10px;
 }
 .recent__card__card_dscr>p {
 	line-height: 22px;
@@ -345,4 +340,62 @@ input[type=radio] + label:checked{
 }
 .recent__cards__card:hover .recent__cards__card__calendar-L{
 	z-index: 2;
+}
+.recent__arrows {
+	width: 62px;
+	margin: 55px 0 40px;
+}
+.partners {
+	background: url(../IMG/bg_header.jpg) no-repeat;
+	background-size:cover;	
+}
+.partners>h2 {
+	overflow: hidden;
+    width: 1px;
+    height: 1px;
+}
+.partners__logo {
+	padding: 140px 0;
+	width: 100%;
+}
+.footer__top-inner {
+	background: #191919;
+	padding: 75px 0 125px;
+}
+.footer__top-inner__item_1, .footer__top-inner__item_2, .footer__top-inner__item_3, .footer__top-inner__item_4{
+	width: 21%;
+}
+.footer__top-inner__item_1>p {
+	padding: 18px 0;
+}
+.footer__top-inner__item_1>a::after {
+	content: url(../IMG/icon/foo_small_arrow.svg);
+}
+.footer__top-inner__item_2>h4, .footer__top-inner__item_3>h4 , .footer__top-inner__item_4>h4{
+	padding-bottom: 24px;
+} 
+.footer__top-inner__item_2__inner {
+	width: 80%;
+}
+.footer__top-inner__item_2__inner-itm {
+	padding-bottom: 8px;
+}
+.footer__top-inner__item_2__inner__HR {
+	border-bottom: solid 1px #242424;
+	margin: 15px 0 12px;
+}
+.footer__top-inner__item_4__collage>img {
+	padding: 0 8px 8px 0;
+}
+.footer__bottom-inner {
+	background: #101010;
+	padding: 55px 0 40px;
+}
+.footer__bottom-inner__separator {
+	height: 16px;
+	border-left: solid 1px #363636;
+	margin: 0 13px;
+}
+.footer__bottom-inner__link:hover {
+	color: #BAA78F;
 }
